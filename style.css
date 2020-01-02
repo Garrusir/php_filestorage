@@ -1,0 +1,31 @@
+.tree {
+  color: #424242;
+  padding: 16px;
+  border-radius: 2px;
+}
+
+.tree__item {
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tree__item i {
+  margin-right: 8px;
+}
+
+.tree__dir {
+  
+}
+
+.tree a {
+  color: #424242;
+  width: 100%;
+  transition: all .3s;
+  text-decoration: none;
+}
+.tree a:hover {
+  background-color: #ccc;
+}
